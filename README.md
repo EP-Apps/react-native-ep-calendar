@@ -80,7 +80,7 @@ This callback gets fired, when the users changes the displayed month. The callba
 3. month
 4. year
 
-In our example that callback is used to load the data for the new month,
+In our example that callback is used to load the data for the new month.
 
 ## 6. License
 
