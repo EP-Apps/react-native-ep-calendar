@@ -59,7 +59,7 @@ An example with some properties set:
                   }}
                 />          
 ```
-Reference-style: 
+That looks like the following:
 ![alt text][logo]
 
 [logo]: https://github.com/EP-Apps/Calendar/blob/main/examples/images/example1.png "Example 1"
