@@ -59,9 +59,8 @@ An example with some properties set:
                   }}
                 />          
 ```
-That looks like the following:
-![alt text]
-[logo]
+
+![alt text][logo]
 
 [logo]: https://github.com/EP-Apps/Calendar/blob/main/examples/images/example1.png "Example 1"
 
