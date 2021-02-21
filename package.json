@@ -1,7 +1,7 @@
 {
-  "name": "calendar",
+  "name": "react-native-ep-calendar",
   "version": "1.0.0",
-  "description": "react-native-calendar",
+  "description": "react-native-ep-calendar",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,14 +13,15 @@
   "keywords": [
     "react",
     "native",
+    "ep",
     "calendar"
   ],
   "author": "EP-Apps",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EP-Apps/Calendar/issues"
+    "url": "https://github.com/EP-Apps/react-native-ep-calendar/issues"
   },
-  "homepage": "https://github.com/EP-Apps/Calendar#readme",
+  "homepage": "https://github.com/EP-Apps/react-native-ep-calendar#readme",
   "dependencies": {
     "react-native": "^0.21.0",
     "react-native-svg": "^1.3.1",
