@@ -1,10 +1,10 @@
-# react-native-calendar
+# react-native-ep-calendar
 
 ## 1. Installation
 
 Run
 
-`npm install react-native-calendar`
+`npm install react-native-ep-calendar`
 
 in your project. For iOS you need to install the pods:
 
