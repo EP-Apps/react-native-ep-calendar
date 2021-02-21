@@ -72,7 +72,7 @@ In our example that callback is used to load the data for the new month.
 
 An example with some properties set:
 
-```
+```javascript
                 <Calendar
                   markerTypes={[missMarker]}
                   markedDates={[...checkedMarker, ...missedMarkers]}
