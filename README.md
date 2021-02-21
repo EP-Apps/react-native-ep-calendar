@@ -28,3 +28,44 @@ The Calendar component takes some parameters, but they are all optional.
 | onMonthChangeListener | Callback when changing the displayed month & year                                         | null                      |
 | startDate             | Starting date of the calendar component                                                   | today                     |
 | useDarkMode           | Darkmode for calendar allowed?                                                            | true                      |
+
+An example with some properties set:
+
+```
+                <Calendar
+                  markerTypes={[missMarker]}
+                  markedDates={[...checkedMarker, ...missedMarkers]}
+                  darkTheme={{
+                    markerColor: habit.Color,
+                    markerTextColor: getTextColorForBgHex(habit.Color),
+                  }}
+                  lightTheme={{
+                    markerColor: habit.Color,
+                    markerTextColor: getTextColorForBgHex(habit.Color),
+                  }}
+                  onMonthChangeListener={(
+                    previousMonth,
+                    previousYear,
+                    month,
+                    year,
+                  ) => {
+                    getTimelineData(
+                      habit,
+                      month,
+                      year,
+                      setCheckedMarker,
+                      setMissedMarker,
+                    );
+                  }}
+                />          
+```
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://github.com/EP-Apps/Calendar/blob/main/examples/images/example1.png "Example 1"
+
+
+
+
+# 3. Themes
+
