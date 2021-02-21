@@ -16,8 +16,8 @@ The Calendar component takes some parameters, but they are all optional.
 
 | Property              | Description                                                                               | Default                   |
 | ----------------------|-------------------------------------------------------------------------------------------| --------------------------|
-| darkTheme             | A style object defining the dark theme. See 3. Themes.                                    | null (predefined style).  |
-| lightTheme            | A style object defining the light theme. See 3. Themes.                                   | null (predefined style).  |
+| darkTheme             | A style object defining the dark theme. See 4. Themes.                                    | null (predefined style).  |
+| lightTheme            | A style object defining the light theme. See 4. Themes.                                   | null (predefined style).  |
 | localization          | Currently unused                                                                          | null                      |
 | markedDates           | Array of Objects containing a date property and a markerType as string                    | today with default marker |
 | markerTypes           | Array of Objects containing a string property markerType as identifier and a style object | empty array               |
@@ -28,6 +28,8 @@ The Calendar component takes some parameters, but they are all optional.
 | onMonthChangeListener | Callback when changing the displayed month & year                                         | null                      |
 | startDate             | Starting date of the calendar component                                                   | today                     |
 | useDarkMode           | Darkmode for calendar allowed?                                                            | true                      |
+
+## 3. Example
 
 An example with some properties set:
 
@@ -67,9 +69,9 @@ An example with some properties set:
 
 
 
-## 3. Themes
+## 4. Themes
 
-## 4. Callbacks
+## 5. Callbacks
 
 onMonthChangeListener:
 This callback gets fired, when the users changes the displayed month. The callback receives four parameters:
@@ -80,6 +82,6 @@ This callback gets fired, when the users changes the displayed month. The callba
 
 In our example that callback is used to load the data for the new month,
 
-## 5. License
+## 6. License
 
 This component is licensed under MIT
